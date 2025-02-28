@@ -32,13 +32,13 @@
     "build:workers": "npx tsc -p src/cloudflare --outDir cloudflare && npx eslint --ext .js cloudflare --fix"
   },
   "dependencies": {
-    "@astrojs/node": "8.3.4",
+    "@astrojs/node": "9.1.2",
     "@cloudcommerce/api": "workspace:*",
     "@cloudcommerce/firebase": "workspace:*",
     "@cloudcommerce/i18n": "workspace:*",
     "@ecomplus/utils": "1.5.0-rc.6",
     "@vueuse/core": "12.7.0",
-    "astro": "4.16.18",
+    "astro": "5.4.0",
     "astro-capo": "^0.0.1",
     "axios": "^1.7.9",
     "firebase-admin": "^13.1.0",
